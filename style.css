@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  max-width: 100%;
+}
+.main-heading {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  position: relative;
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+h2::after {
+  content: "";
+  background-color: #000;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 4px;
+  width: 80px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  box-shadow: 0 4px 40px 0px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  width: 340px;
+}
+
+ul li p {
+  padding: 0px 15px;
+  font-size: 16px;
+  color: #383838;
+  margin: 5px 0px 0px 0px;
+  font-weight: 600;
+}
+
+.link-container {
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.link-container a {
+  background-color: #34a0e9;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 3px 12px;
+  transition: 0.3s ease;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.link-container a:hover {
+  transform: scale(1.2);
+}
+
+ul li img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+footer {
+  background-color: #222;
+  color: rgb(160, 160, 160);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+  ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    text-align: center;
+  }
+  h2::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+  }
+}
