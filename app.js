@@ -5,6 +5,9 @@ const projects = [
   {
     name: "Password-Genarator",
   },
+  {
+    name: "Form-Validator",
+  },
 ];
 
 const list = document.getElementById("list");
