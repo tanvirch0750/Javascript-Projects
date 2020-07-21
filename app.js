@@ -6,6 +6,9 @@ const projects = [
     name: "Password-Genarator",
   },
   {
+    name: "Movie-Seat-Booking",
+  },
+  {
     name: "Form-Validator",
   },
 ];
