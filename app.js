@@ -9,6 +9,9 @@ const projects = [
     name: "Movie-Seat-Booking",
   },
   {
+    name: "Exchange-Rate",
+  },
+  {
     name: "Form-Validator",
   },
 ];
