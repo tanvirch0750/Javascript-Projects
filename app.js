@@ -17,6 +17,9 @@ const projects = [
   {
     name: "Form-Validator",
   },
+  {
+    name: "Change-CSS-Variable-with-JS",
+  },
 ];
 
 const list = document.getElementById("list");
