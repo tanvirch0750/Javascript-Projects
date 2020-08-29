@@ -6,7 +6,10 @@ const projects = [
     name: "Dice-Game",
   },
   {
-    name: "Password-Genarator",
+    name: "Github-Finder",
+  },
+  {
+    name: "Password-Generator",
   },
   {
     name: "Movie-Seat-Booking",
