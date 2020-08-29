@@ -3,6 +3,9 @@ const projects = [
     name: "Book-List",
   },
   {
+    name: "Dice-Game",
+  },
+  {
     name: "Password-Genarator",
   },
   {
